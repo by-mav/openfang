@@ -8,19 +8,19 @@ use ratatui::style::{Color, Modifier, Style};
 
 // ── Core Palette (dark mode for terminal) ───────────────────────────────────
 
-pub const ACCENT: Color = Color::Rgb(255, 92, 0); // #FF5C00 — OpenFang orange
-pub const ACCENT_DIM: Color = Color::Rgb(224, 82, 0); // #E05200
+pub const ACCENT: Color = Color::Rgb(122, 162, 247); // #7AA2F7 — BYMAV blue (Tokyo Night)
+pub const ACCENT_DIM: Color = Color::Rgb(86, 95, 137); // #565F89
 
-pub const BG_PRIMARY: Color = Color::Rgb(15, 14, 14); // #0F0E0E — dark background
-pub const BG_CARD: Color = Color::Rgb(31, 29, 28); // #1F1D1C — dark surface
-pub const BG_HOVER: Color = Color::Rgb(42, 39, 37); // #2A2725 — dark hover
-pub const BG_CODE: Color = Color::Rgb(24, 22, 21); // #181615 — dark code block
+pub const BG_PRIMARY: Color = Color::Rgb(26, 27, 38); // #1A1B26 — Tokyo Night bg
+pub const BG_CARD: Color = Color::Rgb(36, 40, 59); // #24283B — Tokyo Night surface
+pub const BG_HOVER: Color = Color::Rgb(59, 66, 97); // #3B4261 — Tokyo Night hover
+pub const BG_CODE: Color = Color::Rgb(26, 27, 38); // #1A1B26 — Tokyo Night code
 
-pub const TEXT_PRIMARY: Color = Color::Rgb(240, 239, 238); // #F0EFEE — light text on dark bg
-pub const TEXT_SECONDARY: Color = Color::Rgb(168, 162, 158); // #A8A29E — muted text
-pub const TEXT_TERTIARY: Color = Color::Rgb(120, 113, 108); // #78716C — dim text
+pub const TEXT_PRIMARY: Color = Color::Rgb(169, 177, 214); // #A9B1D6 — Tokyo Night text
+pub const TEXT_SECONDARY: Color = Color::Rgb(86, 95, 137); // #565F89 — Tokyo Night muted
+pub const TEXT_TERTIARY: Color = Color::Rgb(68, 75, 106); // #444B6A — Tokyo Night dim
 
-pub const BORDER: Color = Color::Rgb(63, 59, 56); // #3F3B38 — dark border
+pub const BORDER: Color = Color::Rgb(59, 66, 97); // #3B4261 — Tokyo Night border
 
 // ── Semantic Colors (brighter variants for dark background contrast) ────────
 

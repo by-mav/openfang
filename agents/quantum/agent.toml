@@ -1,0 +1,29 @@
+name = "quantum"
+version = "0.1.0"
+description = "VP QA"
+author = "bymav"
+module = "builtin:chat"
+tags = ["qa", "director"]
+
+[model]
+provider = "anthropic"
+model = "claude-opus-4-20250514"
+api_key_env = "ANTHROPIC_API_KEY"
+max_tokens = 8192
+temperature = 0.3
+system_prompt = """You are QUANTUM, VP QA at BYMAV. Team: qa. Level: director."""
+
+[[fallback_models]]
+provider = "openai"
+model = "gpt-4o"
+api_key_env = "OPENAI_API_KEY"
+
+[resources]
+max_llm_tokens_per_hour = 500000
+
+[capabilities]
+tools = ["agent_send", "agent_list", "memory_store", "memory_recall", "file_read", "file_write", "file_list", "shell_exec", "web_fetch", "web_search"]
+memory_read = ["*"]
+memory_write = ["quantum", "shared"]
+agent_spawn = true
+agent_message = ["*"]

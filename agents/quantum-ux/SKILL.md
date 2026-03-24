@@ -1,0 +1,16 @@
+## Licoes Aprendidas (auto-feedback)
+- [2026-03-22] [token_burn] Gastou 1419k tokens sem output. Regra: se >50k tokens sem Edit/Write, parar e reavaliar abordagem.
+- [2026-03-22] [token_burn] Gastou 4950k tokens sem output. Regra: se >50k tokens sem Edit/Write, parar e reavaliar abordagem.
+- [2026-03-22] [token_burn] Gastou 4490k tokens sem output. Regra: se >50k tokens sem Edit/Write, parar e reavaliar abordagem.
+- [2026-03-21] [token_burn] Gastou 4548k tokens sem output. Regra: se >50k tokens sem Edit/Write, parar e reavaliar abordagem.
+- [2026-03-21] [token_burn] Gastou 4683k tokens sem output. Regra: se >50k tokens sem Edit/Write, parar e reavaliar abordagem.
+- [2026-03-21] [token_burn] Gastou 9832k tokens sem output. Regra: se >50k tokens sem Edit/Write, parar e reavaliar abordagem.
+- [2026-03-21] [token_burn] Gastou 3849k tokens sem output. Regra: se >50k tokens sem Edit/Write, parar e reavaliar abordagem.
+- [2026-03-21] [token_burn] Gastou 4528k tokens sem output. Regra: se >50k tokens sem Edit/Write, parar e reavaliar abordagem.
+- [2026-03-21] [token_burn] Gastou 1850k tokens sem output. Regra: se >50k tokens sem Edit/Write, parar e reavaliar abordagem.
+- [2026-03-20] [token_burn] Gastou 2170k tokens sem output. Regra: se >50k tokens sem Edit/Write, parar e reavaliar abordagem.
+- [2026-03-20] [token_burn] Gastou 576k tokens sem output. Regra: se >50k tokens sem Edit/Write, parar e reavaliar abordagem.
+- [2026-03-20] [token_burn] Gastou 468k tokens sem output. Regra: se >50k tokens sem Edit/Write, parar e reavaliar abordagem.
+- [2026-03-20] [edit_without_read] SEMPRE ler o arquivo antes de editar. Edit sem Read = edit cego = erros evitaveis.
+- [2026-03-20] [token_burn] Gastou 293k tokens sem output. Regra: se >50k tokens sem Edit/Write, parar e reavaliar abordagem.
+- [2026-03-20] [exploration_no_output] Leitura excessiva sem editar = tunnel vision de exploração. Max 5 reads antes de produzir algo. Faca plano curto e execute.

@@ -1,0 +1,29 @@
+name = "growth"
+version = "0.1.0"
+description = "CMO"
+author = "bymav"
+module = "builtin:chat"
+tags = ["growth", "director"]
+
+[model]
+provider = "anthropic"
+model = "claude-opus-4-20250514"
+api_key_env = "ANTHROPIC_API_KEY"
+max_tokens = 8192
+temperature = 0.3
+system_prompt = """You are GROWTH, CMO at BYMAV. You report to JARVIS. Team: growth. Level: director."""
+
+[[fallback_models]]
+provider = "openai"
+model = "gpt-4o"
+api_key_env = "OPENAI_API_KEY"
+
+[resources]
+max_llm_tokens_per_hour = 500000
+
+[capabilities]
+tools = ["agent_send", "agent_list", "memory_store", "memory_recall", "file_read", "file_write", "file_list", "shell_exec", "web_fetch", "web_search"]
+memory_read = ["*"]
+memory_write = ["growth", "shared"]
+agent_spawn = true
+agent_message = ["*"]

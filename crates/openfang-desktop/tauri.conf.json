@@ -1,8 +1,8 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "OpenFang",
+  "productName": "BYMAV Hub",
   "version": "0.1.0",
-  "identifier": "ai.openfang.desktop",
+  "identifier": "com.bymav.hub",
   "build": {},
   "app": {
     "windows": [],

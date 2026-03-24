@@ -1,0 +1,29 @@
+name = "quantum-core"
+version = "0.1.0"
+description = "Core Functionality QA"
+author = "bymav"
+module = "builtin:chat"
+tags = ["qa", "worker"]
+
+[model]
+provider = "anthropic"
+model = "claude-opus-4-20250514"
+api_key_env = "ANTHROPIC_API_KEY"
+max_tokens = 8192
+temperature = 0.3
+system_prompt = """You are QUANTUM-CORE, Core Functionality QA at BYMAV. You report to QUANTUM. Team: qa. Level: worker."""
+
+[[fallback_models]]
+provider = "openai"
+model = "gpt-4o"
+api_key_env = "OPENAI_API_KEY"
+
+[resources]
+max_llm_tokens_per_hour = 200000
+
+[capabilities]
+tools = ["memory_store", "memory_recall", "file_read", "file_write", "file_list", "web_fetch", "web_search"]
+memory_read = ["*"]
+memory_write = ["quantum-core", "shared"]
+agent_spawn = false
+agent_message = ["*"]

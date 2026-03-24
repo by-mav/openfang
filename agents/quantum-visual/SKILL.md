@@ -1,0 +1,19 @@
+## Licoes Aprendidas (auto-feedback)
+- [2026-03-22] [token_burn] Gastou 3188k tokens sem output. Regra: se >50k tokens sem Edit/Write, parar e reavaliar abordagem.
+- [2026-03-22] [token_burn] Gastou 2829k tokens sem output. Regra: se >50k tokens sem Edit/Write, parar e reavaliar abordagem.
+- [2026-03-21] [token_burn] Gastou 5327k tokens sem output. Regra: se >50k tokens sem Edit/Write, parar e reavaliar abordagem.
+- [2026-03-21] [token_burn] Gastou 7751k tokens sem output. Regra: se >50k tokens sem Edit/Write, parar e reavaliar abordagem.
+- [2026-03-21] [token_burn] Gastou 332k tokens sem output. Regra: se >50k tokens sem Edit/Write, parar e reavaliar abordagem.
+- [2026-03-21] [token_burn] Gastou 3368k tokens sem output. Regra: se >50k tokens sem Edit/Write, parar e reavaliar abordagem.
+- [2026-03-21] [token_burn] Gastou 17748k tokens sem output. Regra: se >50k tokens sem Edit/Write, parar e reavaliar abordagem.
+- [2026-03-21] [token_burn] Gastou 7378k tokens sem output. Regra: se >50k tokens sem Edit/Write, parar e reavaliar abordagem.
+- [2026-03-21] [token_burn] Gastou 231k tokens sem output. Regra: se >50k tokens sem Edit/Write, parar e reavaliar abordagem.
+- [2026-03-21] [token_burn] Gastou 303k tokens sem output. Regra: se >50k tokens sem Edit/Write, parar e reavaliar abordagem.
+- [2026-03-21] [token_burn] Gastou 103k tokens sem output. Regra: se >50k tokens sem Edit/Write, parar e reavaliar abordagem.
+- [2026-03-21] [token_burn] Gastou 307k tokens sem output. Regra: se >50k tokens sem Edit/Write, parar e reavaliar abordagem.
+- [2026-03-21] [token_burn] Gastou 419k tokens sem output. Regra: se >50k tokens sem Edit/Write, parar e reavaliar abordagem.
+- [2026-03-21] [token_burn] Gastou 134k tokens sem output. Regra: se >50k tokens sem Edit/Write, parar e reavaliar abordagem.
+- [2026-03-21] [token_burn] Gastou 320k tokens sem output. Regra: se >50k tokens sem Edit/Write, parar e reavaliar abordagem.
+- [2026-03-21] [token_burn] Gastou 2101k tokens sem output. Regra: se >50k tokens sem Edit/Write, parar e reavaliar abordagem.
+- [2026-03-21] [edit_without_read] SEMPRE ler o arquivo antes de editar. Edit sem Read = edit cego = erros evitaveis.
+- [2026-03-21] [exploration_no_output] Leitura excessiva sem editar = tunnel vision de exploração. Max 5 reads antes de produzir algo. Faca plano curto e execute.
